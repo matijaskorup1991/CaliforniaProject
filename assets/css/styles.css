@@ -43,7 +43,8 @@ html {
 
 #hero,
 #message,
-#numbers {
+#numbers,
+#bear {
   height: 100vh;
   background-color: #000;
   color: white;
@@ -130,9 +131,14 @@ html {
   height: 100%;
 }
 
+.c,
+.d {
+  position: relative;
+  bottom: 10vh;
+}
+
 .c {
   width: 100%;
-
   grid-area: c;
 }
 
@@ -148,4 +154,41 @@ html {
 
 .e h2 {
   font-size: 4rem;
+}
+.l {
+  width: 80%;
+  height: 80%;
+  grid-area: l;
+}
+
+.g {
+  grid-area: g;
+  width: 80%;
+  height: 80%;
+  position: relative;
+  top: 5vh;
+  left: 200px;
+}
+.i {
+  grid-area: i;
+  position: relative;
+  width: 70%;
+  height: 70%;
+  bottom: 10vh;
+  left: 200px;
+}
+.m {
+  grid-area: m;
+  width: 70%;
+  height: 70%;
+  position: relative;
+  right: 70px;
+}
+.n {
+  grid-area: n;
+}
+.r {
+  grid-area: r;
+  position: relative;
+  top: 100px;
 }
