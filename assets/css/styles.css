@@ -42,7 +42,8 @@ html {
 }
 
 #hero,
-#message {
+#message,
+#numbers {
   height: 100vh;
   background-color: #000;
   color: white;
@@ -61,7 +62,8 @@ html {
 
 #hero h1,
 #hero h2,
-#message h1 {
+#message h1,
+#numbers h2 {
   font-size: 6.5rem;
 }
 
@@ -91,4 +93,19 @@ html {
 #message h1 {
   width: 89%;
   padding-top: 10vh;
+  margin-bottom: 10vh;
+}
+
+/* NUMBERS: */
+
+#numbers {
+  height: 73vh;
+}
+#numbers p {
+  margin-bottom: 10px;
+  font-size: 1.4rem;
+}
+
+#numbers p:nth-of-type(1) {
+  padding-top: 6vh;
 }
