@@ -36,10 +36,19 @@ h2 {
   font-family: larishNeue2;
 }
 
-#hero {
+html {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+#hero,
+#message {
   height: 100vh;
   background-color: #000;
   color: white;
+}
+
+#hero {
   text-align: center;
   position: relative;
 }
@@ -51,8 +60,9 @@ h2 {
 }
 
 #hero h1,
-#hero h2 {
-  font-size: 5rem;
+#hero h2,
+#message h1 {
+  font-size: 6.5rem;
 }
 
 #hero > div {
@@ -74,4 +84,11 @@ h2 {
   color: black;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: white;
+}
+
+/* MESSAGE: */
+
+#message h1 {
+  width: 89%;
+  padding-top: 10vh;
 }
