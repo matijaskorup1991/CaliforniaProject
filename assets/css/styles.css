@@ -44,7 +44,7 @@ html {
 #hero,
 #message,
 #numbers {
-  height: 100vh;
+  min-height: 100vh;
   background-color: #000;
   color: white;
 }
@@ -55,8 +55,6 @@ html {
 }
 
 #hero > article {
-  width: 60%;
-  margin: 0 auto;
   padding-top: 40vh;
 }
 
@@ -92,9 +90,9 @@ html {
 /* MESSAGE: */
 
 #message h1 {
-  width: 89%;
+  padding-right: 20%;
   padding-top: 10vh;
-  margin-bottom: 10vh;
+  padding-bottom: 10vh;
 }
 
 /* NUMBERS: */
