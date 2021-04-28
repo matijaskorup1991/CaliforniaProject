@@ -41,6 +41,14 @@ html {
   margin: 0 auto;
 }
 
+.line {
+  width: 1px;
+  height: 35vh;
+  margin: 0 auto;
+  background-color: grey;
+  display: block;
+}
+
 #hero,
 #message,
 #numbers {
@@ -55,7 +63,7 @@ html {
 }
 
 #hero > article {
-  padding-top: 40vh;
+  padding-top: 5vh;
 }
 
 #hero h1,
