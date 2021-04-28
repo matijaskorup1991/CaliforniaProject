@@ -1,0 +1,20 @@
+h2 {
+  font-family: 'Roboto', sans-serif;
+}
+h1 {
+  font-family: 'Dela Gothic One', cursive;
+  text-shadow: 2px 3px 3px red;
+}
+p {
+  direction: rtl;
+  letter-spacing: 5px;
+  text-align: center;
+}
+div {
+  line-height: 20px;
+  text-align: justify;
+  text-decoration: line-through;
+  text-indent: 30px;
+  text-transform: uppercase;
+  word-spacing: 30px;
+}
