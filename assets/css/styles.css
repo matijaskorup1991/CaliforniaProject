@@ -2,3 +2,76 @@
 
 /* Farbe: #fff / #000 */
 /* font-family: 'Work Sans', sans-serif; */
+
+/* RESTART: */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: larishNeue2;
+  src: url("./fonts/Larish\ Neue\ Semibold.woff2");
+}
+@font-face {
+  font-family: larishNeue1;
+  src: url("./fonts/LarishNeueSemibold.woff");
+}
+
+/* DEFAULT: */
+
+a {
+  text-decoration: none;
+}
+
+section {
+  padding: 0 5%;
+  font-family: "Work Sans", sans-serif;
+}
+
+h1,
+h2 {
+  font-family: larishNeue2;
+}
+
+#hero {
+  height: 100vh;
+  background-color: #000;
+  color: white;
+  text-align: center;
+  position: relative;
+}
+
+#hero > article {
+  width: 60%;
+  margin: 0 auto;
+  padding-top: 40vh;
+}
+
+#hero h1,
+#hero h2 {
+  font-size: 5rem;
+}
+
+#hero > div {
+  position: absolute;
+  bottom: 10vh;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#hero a {
+  color: white;
+  display: inline-block;
+  padding: 10px 30px;
+  border: 1px solid white;
+}
+
+#hero h2 {
+  color: black;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
