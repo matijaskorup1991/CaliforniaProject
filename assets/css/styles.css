@@ -294,9 +294,8 @@ html {
 .circle > div {
   width: 400px;
   height: 400px;
-  margin-left: 75%;
+  margin-left: 85%;
   position: relative;
-  left: 180px;
   bottom: 80px;
   animation: rotate 8s infinite linear;
 }
@@ -413,3 +412,40 @@ footer {
     left: 100%;
   }
 }
+
+/* BREAKPOINTS: */
+
+@media screen and (max-width: 1200px) {
+  #message h1 {
+    font-size: 5rem;
+    padding-right: 10%;
+    padding-bottom: 0;
+  }
+
+  .i {
+    left: 150px;
+  }
+
+  .m {
+    right: 50px;
+  }
+
+  .r {
+    top: 50px;
+  }
+  .circle > div {
+    margin-left: 80%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  #message {
+    min-height: 80vh;
+  }
+
+  #message h1 {
+    font-size: 5rem;
+    padding-right: 10%;
+    padding-bottom: 0;
+  }
+} ;
