@@ -313,10 +313,11 @@ html {
   min-height: 80vh;
   background-color: #000;
   color: white;
-  display: flex;
+  position: relative;
+  overflow: hidden;
 }
 
-#end article {
+#end article:nth-of-type(1) {
   width: 50%;
 }
 
@@ -327,6 +328,33 @@ html {
   margin-bottom: 30px;
 }
 
+.date-an > div {
+  background-color: whitesmoke;
+}
+
+.date-an h2 {
+  font-size: 5.5rem;
+  background-color: whitesmoke;
+  color: black;
+  position: relative;
+  animation: move 7s infinite linear;
+}
+
+.date-an span {
+  color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+.date-an {
+  transform: rotate(45deg);
+  position: absolute;
+  width: 100%;
+  top: 20%;
+  left: 20%;
+}
+
+/* FOTER */
 footer {
   background-color: #000;
   color: white;
@@ -346,7 +374,8 @@ footer {
   margin-right: 10px;
   margin-bottom: 10px;
 }
-.footer-img {
+.footer-img,
+.date-an {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -364,5 +393,23 @@ footer {
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@keyframes move {
+  0% {
+    left: 0%;
+  }
+  25% {
+    left: 25%;
+  }
+  50% {
+    left: 50%;
+  }
+  75% {
+    left: 75%;
+  }
+  100% {
+    left: 100%;
   }
 }
