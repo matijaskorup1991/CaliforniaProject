@@ -26,7 +26,8 @@ a {
   text-decoration: none;
 }
 
-section {
+section,
+footer {
   padding: 0 5%;
   font-family: "Work Sans", sans-serif;
   overflow: hidden;
@@ -319,4 +320,30 @@ html {
 footer {
   background-color: #000;
   color: white;
+  padding-bottom: 5vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-de {
+  margin: 10px 0;
+}
+
+.social img {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.footer-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer-img img {
+  display: inline-block;
+  width: 100px;
+  height: 40px;
 }
