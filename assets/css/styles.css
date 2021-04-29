@@ -24,13 +24,19 @@
 
 a {
   text-decoration: none;
+  transition: all 0.4s linear;
+}
+
+#hero a:hover,
+#end a:hover {
+  background-color: #fff;
+  color: black;
 }
 
 section,
 footer {
   padding: 0 5%;
   font-family: "Work Sans", sans-serif;
-  overflow: hidden;
 }
 
 h1,
@@ -85,7 +91,8 @@ html {
   justify-content: space-between;
 }
 
-#hero a {
+#hero a,
+#end a {
   color: white;
   display: inline-block;
   padding: 10px 30px;
@@ -212,7 +219,7 @@ html {
 
 .golden-bear-h {
   display: flex;
-  padding: 15vh 0;
+  padding: 7vh 0 15vh 0;
   justify-content: space-between;
 }
 
@@ -268,6 +275,7 @@ html {
 
 #poppy {
   padding-bottom: 30vh;
+  overflow: hidden;
 }
 
 #poppy h2 {
@@ -284,17 +292,18 @@ html {
 }
 
 .circle > div {
-  width: 35%;
-  height: 35vh;
-  margin-left: auto;
+  width: 400px;
+  height: 400px;
+  margin-left: 75%;
   position: relative;
-  left: 18%;
-  bottom: 50px;
+  left: 180px;
+  bottom: 80px;
+  animation: rotate 8s infinite linear;
 }
 
 .circle > div img {
-  width: 100%;
-  height: 100%;
+  width: 400px;
+  height: 400px;
 }
 
 /* END */
@@ -315,6 +324,7 @@ html {
   font-size: 2.5rem;
   line-height: 3.5rem;
   padding-right: 10%;
+  margin-bottom: 30px;
 }
 
 footer {
@@ -346,4 +356,13 @@ footer {
   display: inline-block;
   width: 100px;
   height: 40px;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
