@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500&display=swap');
 
 /* Farbe: #fff / #000 */
 /* font-family: 'Work Sans', sans-serif; */
@@ -14,11 +14,11 @@
 
 @font-face {
   font-family: larishNeue2;
-  src: url("./fonts/Larish\ Neue\ Semibold.woff2");
+  src: url('./fonts/Larish\ Neue\ Semibold.woff2');
 }
 @font-face {
   font-family: larishNeue1;
-  src: url("./fonts/LarishNeueSemibold.woff");
+  src: url('./fonts/LarishNeueSemibold.woff');
 }
 
 /* DEFAULT: */
@@ -42,18 +42,13 @@ a:hover {
 section,
 footer {
   padding: 0 5%;
-  font-family: "Work Sans", sans-serif;
+  font-family: 'Work Sans', sans-serif;
 }
 
 h1,
 h2,
 h3 {
   font-family: larishNeue2;
-}
-
-html {
-  max-width: 1440px;
-  margin: 0 auto;
 }
 
 .line {
@@ -139,12 +134,12 @@ html {
   -ms-grid-rows: (33vh) [6];
   grid-template-rows: repeat(6, 33vh);
   grid-template-areas:
-    "a b c"
-    "d e f "
-    "g h i"
-    "j k l"
-    "m n o"
-    "p q r";
+    'a b c'
+    'd e f '
+    'g h i'
+    'j k l'
+    'm n o'
+    'p q r';
 }
 
 #middle div > img {
@@ -236,6 +231,7 @@ html {
 /* GOLDEN-BEAR */
 
 #bear {
+  padding-top: 1rem;
   background-color: #000;
   color: white;
 }
